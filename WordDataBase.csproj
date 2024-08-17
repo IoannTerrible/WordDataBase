@@ -20,14 +20,21 @@
 		<!-- Теги для поиска пакета -->
 		<Copyright>Copyright © Teach Tea Studio 2024</Copyright>
 		<!-- Авторское право -->
-
+		<RepositoryUrl>https://github.com/IoannTerrible/WordDataBase</RepositoryUrl>
 		<!-- Путь к файлу значка относительно корневого каталога проекта -->
 		<PackageIcon>database.png</PackageIcon>
 	</PropertyGroup>
+	
+	<PropertyGroup>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 
+	</PropertyGroup>
+	
 	<ItemGroup>
-		<!-- Включите файл значка в пакет -->
 		<None Include="database.png" Pack="true" PackagePath="\" />
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="LICENSE.txt" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>
