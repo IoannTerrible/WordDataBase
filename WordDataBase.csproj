@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
@@ -11,7 +11,7 @@
 		<Company>Teach Tea Studio</Company>
 		<Description>A simple text-based database with basic functionality.</Description>
 		<PackageTags>text database orm noSql</PackageTags>
-		<Copyright>Copyright © Teach Tea Studio 2024</Copyright>
+		<Copyright>Copyright © Teach Tea Studio 2025</Copyright>
 		<RepositoryUrl>https://github.com/IoannTerrible/WordDataBase</RepositoryUrl>
 		<PackageIcon>database.png</PackageIcon>
 	</PropertyGroup>

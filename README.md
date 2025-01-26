@@ -14,4 +14,4 @@ SimpleTextDatabase is a lightweight text-based database library designed to prov
 To install the `SimpleTextDatabase` package, use the following command:
 
 ```bash
-dotnet add package SimpleTextDatabase --version 1.0.0
+dotnet add package SimpleTextDatabase
