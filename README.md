@@ -102,7 +102,7 @@ dotnet test  WordDataBase.sln
 
 ## Release
 
-Bump `<Version>` in [`src/WordDataBase/WordDataBase.csproj`](src/WordDataBase/WordDataBase.csproj), commit, push to `main`. CI builds, packs, and publishes to nuget.org automatically (`--skip-duplicate`).
+Bump `<Version>` in [`src/WordDataBase/WordDataBase.csproj`](src/WordDataBase/WordDataBase.csproj), commit, push to `product`. CI builds, packs, and publishes to nuget.org automatically (`--skip-duplicate`).
 
 ## License
 

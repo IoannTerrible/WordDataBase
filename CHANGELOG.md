@@ -3,6 +3,11 @@
 All notable changes to this package are documented here.
 Format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.10.2] — 2026-05-11
+
+### Changed
+- CI/CD workflow now triggers on the `product` branch (was `main`). Documentation updated accordingly.
+
 ## [1.10.1] — 2026-05-11
 
 ### Changed
@@ -74,6 +79,7 @@ Major refactor. Surface-compatible at the call-site level for existing sync API;
 
 - Initial release: line-based text database with `CreateTable` / `InsertData` / `Select` / `DropTable` / `DropDatabase` and transaction support.
 
+[1.10.2]: https://github.com/IoannTerrible/WordDataBase/releases/tag/v1.10.2
 [1.10.1]: https://github.com/IoannTerrible/WordDataBase/releases/tag/v1.10.1
 [1.10.0]: https://github.com/IoannTerrible/WordDataBase/releases/tag/v1.10.0
 [1.9.1]: https://github.com/IoannTerrible/WordDataBase/releases/tag/v1.9.1
