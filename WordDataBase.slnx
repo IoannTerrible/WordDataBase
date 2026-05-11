@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Tests/">
+    <Project Path="tests/WordDataBase.Tests/WordDataBase.Tests.csproj" />
+  </Folder>
+  <Project Path="src/WordDataBase/WordDataBase.csproj" />
+</Solution>

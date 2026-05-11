@@ -1,0 +1,17 @@
+name: .NET
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  publish:
+    uses: TechTeaStudio/.github/.github/workflows/nuget-publish-reusable.yml@main
+    with:
+      solution: WordDataBase.sln
+      projects_glob: src/WordDataBase/WordDataBase.csproj
+      skip_tests: false
+    secrets:
+      NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}

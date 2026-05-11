@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordDataBase", "WordDataBase.csproj", "{3A05B736-7153-4EB3-B38E-0773224F59AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordDataBase", "src\WordDataBase\WordDataBase.csproj", "{3A05B736-7153-4EB3-B38E-0773224F59AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{69224257-74F1-4CBC-9065-F4471904B1EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordDataBase.Tests", "tests\WordDataBase.Tests\WordDataBase.Tests.csproj", "{69224257-74F1-4CBC-9065-F4471904B1EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

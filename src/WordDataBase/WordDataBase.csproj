@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<RootNamespace>WordDataBase</RootNamespace>
+		<AssemblyName>WordDataBase</AssemblyName>
+
+		<PackageId>SimpleTextDatabase</PackageId>
+		<Version>1.10.0</Version>
+		<Description>A simple text-based database with basic ORM functionality, DI integration, and async file I/O.</Description>
+		<PackageTags>text database orm noSql TechTeaStudio DependencyInjection async</PackageTags>
+		<RepositoryUrl>https://github.com/IoannTerrible/WordDataBase</RepositoryUrl>
+		<ProjectUrl>https://github.com/IoannTerrible/WordDataBase</ProjectUrl>
+		<PackageIcon>database.png</PackageIcon>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);CS1591</NoWarn>
+
+		<PackageReleaseNotes>
+			v1.10.0: Major refactor. Added net10.0 target, async API, DI extensions, fixed transaction bugs, unified namespace, restructured into src/ layout. See CHANGELOG.md.
+		</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\database.png" Pack="true" PackagePath="\" />
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
