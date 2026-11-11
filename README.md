@@ -1,6 +1,6 @@
 # SimpleTextDatabase
 
-A simple text-based database with basic ORM functionality for .NET 8 / 9 / 10. One file on disk, tables and rows are line-based, with sync and async APIs, transactions, and DI integration.
+A simple text-based database with basic ORM functionality for .NET 8 / 9 / 10 / 11. One file on disk, tables and rows are line-based, with sync and async APIs, transactions, and DI integration.
 
 [![NuGet](https://img.shields.io/nuget/v/SimpleTextDatabase.svg)](https://www.nuget.org/packages/SimpleTextDatabase)
 
